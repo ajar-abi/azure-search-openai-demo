@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "rollup-plugin-svg": "^2.0.0"
+  },
+  "dependencies": {
+    "@themesberg/react-bootstrap": "^1.4.1"
+  }
+}

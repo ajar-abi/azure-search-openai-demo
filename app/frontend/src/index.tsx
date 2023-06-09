@@ -9,12 +9,16 @@ import Layout from "./pages/layout/Layout";
 import NoPage from "./pages/NoPage";
 import OneShot from "./pages/oneshot/OneShot";
 import Chat from "./pages/chat/Chat";
+import Sidebar from "./components/Sidebar";
+import Navbar from "./components/Navbar";
 
 initializeIcons();
 
 export default function App() {
     return (
         <HashRouter>
+            {/* <Sidebar/> */}
+            {/* <Navbar/> */}
             <Routes>
                 <Route path="/" element={<Layout />}>
                     <Route index element={<Chat />} />

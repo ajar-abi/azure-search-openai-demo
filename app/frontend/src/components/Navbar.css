@@ -1,0 +1,98 @@
+.nav {
+    height: 80px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    padding: 0 2rem;
+  }
+  .nav__left {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .nav__left--logo {
+    width: 150px !important;
+  }
+  .nav__left--search {
+    padding: 6px 1rem;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+  }
+  .nav__left--search::-moz-placeholder {
+    font-weight: 700;
+    font-size: 14px;
+    color: #777777;
+  }
+  .nav__left--search::placeholder {
+    font-weight: 700;
+    font-size: 14px;
+    color: #777777;
+  }
+  .nav__left--searchicon {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: #cbcbcb;
+    width: 12px;
+    height: 12px;
+  }
+  .nav__left--searchbox {
+    position: relative;
+  }
+  .nav__left--bars {
+    width: 25px;
+    height: 25px;
+  }
+  .nav__right {
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+    align-items: center;
+  }
+  .nav__right p {
+    margin: 0;
+  }
+  .nav__right--logname {
+    padding: 0 2rem;
+    border-left: 2px solid #c1c1c1;
+  }
+  .nav__right--flag {
+    width: 25px;
+    height: auto;
+    border-radius: 5px;
+  }
+  .nav__right--icon {
+    font-size: 24px;
+    color: #1475df;
+    width: 25px;
+    height: 25px;
+  }
+  .nav__right--welcome {
+    color: #b6b6b6;
+  }
+  .nav__right--notification {
+    position: relative;
+  }
+  .nav__right--notifynum {
+    position: absolute;
+    top: -5px;
+    background-color: #ef6e6e;
+    font-size: 8px;
+    font-weight: 700;
+    border-radius: 100%;
+    padding: 1px 4px;
+    color: #fff;
+    left: 9px;
+    border: 2px solid #fff;
+  }
+  .nav__right--chevron {
+    width: 25px;
+    height: 25px;
+  }
